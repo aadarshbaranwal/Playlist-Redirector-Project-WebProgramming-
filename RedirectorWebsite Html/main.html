@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Page</title>
+</head>
+<body>
+<h1>Login Form</h1>
+<hr>
+<form action="home.html" method="GET">
+<fieldset>
+<legend>User Login Details</legend>
+<label>Username:</label><br>
+<input type="text" name="username" required><br><br>
+<label>Password:</label><br>
+<input type="password" name="password" required><br><br>
+<label>Select Role:</label><br>
+<select name="role">
+<option>User</option>
+<option>Artist</option>
+<option>Guest</option>
+</select><br><br>
+<label>Gender:</label><br>
+<input type="radio" name="gender" value="Male"> Male<br>
+<input type="radio" name="gender" value="Female"> Female<br>
+<input type="radio" name="gender" value="Other"> other<br><br>
+<label>Interests:</label><br>
+<input type="checkbox" name="interest" value="Interest"> Hindi<br>
+<input type="checkbox" name="interest" value="Interest"> English<br>
+<input type="checkbox" name="interest" value="Interest"> urdu<br>
+<input type="checkbox" name="interest" value="Interestd"> Punjabi<br><br>
+<label>Date of Birth:</label><br>
+<input type="date" name="dob"><br><br>
+<label>Login Time:</label><br>
+<input type="time" name="logintime"><br><br>
+<label>Upload Profile Photo:</label><br>
+<input type="file" name="file"><br><br>
+<label>About Yourself:</label><br<textarea rows="4" cols="30" name="about"></textarea><br><br>
+<button type="button" onclick="document.querySelector('form').reset();">
+Clear All Fields
+</button>
+<input type="submit" value="Login">
+</fieldset>
+</form>
+</body>
+</html>
+ 

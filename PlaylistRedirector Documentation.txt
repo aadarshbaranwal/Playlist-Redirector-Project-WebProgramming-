@@ -1,0 +1,124 @@
+Music Playlist Redirect Website – Documentation
+This project is a multi-page static music website created using basic HTML and CSS.
+The main purpose of the website is to allow users to select a music album or playlist and get redirected to available music platforms such as Spotify, YouTube Music, Apple Music, JioSaavn, SoundCloud, and Gaana.
+The website focuses on:
+Simple UI
+Easy navigation
+Platform-wise playlist availability
+Beginner-friendly HTML concepts
+====================================================================================================================
+🧩 Pages Included in the Project
+1)Login Page (login.html)
+Description:
+This page collects user details before allowing access to the website.
+Features:
+Username and password fields
+Role selection (User / Artist / Guest)
+Gender selection using radio buttons
+Music interest selection using checkboxes
+Date and time input fields
+File upload option
+Textarea for user description
+Light mode & Dark mode toggle using JavaScript
+Redirects user to the Home Page after login
+Concepts Used:
+form, input, radio, checkbox, select, textarea, fieldset, basic JavaScript
+2️)Home Page (home.html)
+Description:
+Acts as the main dashboard of the website.
+Features:
+Navigation menu (About, More Information, Upcoming, Contact)
+Displays available playlists
+Uses image mapping to make album images clickable
+Each image redirects to its respective album page
+Concepts Used:
+table, img, map, area, hyperlinks
+3️)About Page (about.html)
+Description:
+Explains the purpose and goals of the website.
+Contents:
+Who the creator is
+Website mission
+Why users should use this platform
+Future improvement promise
+Concepts Used:
+marquee, headings, paragraphs, text formatting
+4️)More Information Page (MoreInformation.html)
+Description:
+Provides technical information about the website.
+Contents:
+HTML elements used
+Technologies implemented
+Planned future features
+Website goals
+Concepts Used:
+Lists, paragraphs, headings, formatting tags
+5️)Upcoming Page (upcoming.html)
+Description:
+Shows playlists that will be added in the future.
+Contents:
+Upcoming playlist categories
+Expectations and future updates
+Informational content for users
+Concepts Used:
+Images, text content, headings
+6️)Contact Page (contact.html)
+Description:
+Allows users to contact the website owner.
+Contents:
+Email address
+Phone number
+Instagram handle
+Link to Feedback Form
+Support hours
+Concepts Used:
+Links, text formatting, navigation
+7️)Feedback Page (feedback.html)
+Description:
+Collects user feedback to improve the website.
+Features:
+Name and email input
+Rating using radio buttons
+Feedback textarea
+Submit and reset buttons
+Concepts Used:
+Forms, inputs, textarea, buttons
+====================================================================================================================
+Album / Playlist Pages (Redirect Pages)
+All album pages follow a common structure and design.
+Pages Included:
+AM.html – Arctic Monkeys
+FavouriteWorstNightmare.html – Arctic Monkeys
+ForAllTheDogs.html – Drake
+Nayaab.html – Seedhe Maut
+Astitva.html – Devang
+Smithereens.html – Joji
+One-X.html – Three Days Grace
+ChaseAtlantic.html – Chase Atlantic
+====================================================================================================================
+ Common Features of Album Pages
+Album title displayed clearly
+Clean blue background with white text
+Styled hyperlinks with hover effects
+Direct links to:
+Spotify
+YouTube Music
+Apple Music
+JioSaavn
+SoundCloud
+Gaana
+If an album is not available on a platform, user is redirected to the platform’s home page
+Clear note mentioning platform limitations
+====================================================================================================================
+Concepts Used:
+CSS styling, hover effects, hyperlinks, layout consistency
+====================================================================================================================
+ Technologies Used
+HTML5 – Structure and content
+CSS (Inline & Internal) – Styling and hover effects
+JavaScript – Theme switching (Light/Dark mode)
+Image Mapping – Interactive playlist selection
+====================================================================================================================
+ Conclusion
+This project demonstrates a strong understanding of HTML fundamentals, form handling, navigation, and basic styling.
+It is suitable for academic submission, beginner portfolios, and learning projects.
